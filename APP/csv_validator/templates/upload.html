@@ -1,0 +1,21 @@
+{% load static %}  <!-- Asegúrate de que esta línea esté presente, para que Django reconozca la etiqueta static, para los estilos CSS -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Subir CSV</title>
+        <link rel="stylesheet" href="{% static 'app/styles.css' %}"> <!-- Ruta CSS-->
+    </head>
+    <body>
+        <div class="container">
+            <h1>Subir archivo TXT</h1>
+            <form method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit">Validar Archivo</button>
+            </form>
+        </div>
+    </body>
+</html>

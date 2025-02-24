@@ -1,0 +1,97 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+}
+
+/* Títulos */
+h1, h2 {
+    color: #333;
+}
+
+/* Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Botón de subir archivo */
+input[type="file"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+/* Botón de envío */
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Mensajes de error */
+.error {
+    color: red;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Mensajes de éxito */
+.success {
+    color: green;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Lista de errores */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #ffcccc;
+    color: #900;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+/* Enlace de regreso */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}

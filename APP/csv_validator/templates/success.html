@@ -1,0 +1,17 @@
+{% load static %}  <!-- Asegúrate de que esta línea esté presente, para que Django reconozca la etiqueta static, para los estilos CSS -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Éxito</title>
+        <link rel="stylesheet" href="{% static 'app/styles.css' %}"> <!-- Ruta CSS-->
+    </head>
+    <body>
+        <div class="container">
+            <h2>¡Archivo validado correctamente!</h2>
+            <a href="/">Volver</a>
+        </div>
+    </body>
+</html>
