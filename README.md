@@ -27,7 +27,16 @@ py -m django startproject 'Nombre del Proyecto'
    
   ![image](https://github.com/user-attachments/assets/17a09942-e14b-44bf-bb8b-6d826f59776d)
 
-3. Tener esta linea la comienzo de la etiqueta HTML!
+3. Tener esta linea al comienzo de la etiqueta HTML!
 
 # HTML: {% load static %} 
 ## RUTA CSS: link rel="stylesheet" href="{% static 'app/styles.css' %}"
+
+# Muestra de la App Inicialmente
+
+![image](https://github.com/user-attachments/assets/20da0399-fe7b-4a69-811a-065ec4e337a6)
+
+# Muestra de la App con Estilos
+
+![image](https://github.com/user-attachments/assets/0188d2f1-daa7-44ca-bf01-d97a608c6f91)
+
